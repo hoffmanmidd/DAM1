@@ -1,0 +1,99 @@
+---
+title: "DAM 1, EDST 0213"
+author: "Steve Hoffman"
+date: "September 22, 2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Purpose of the Data-Analytic Memo
+
+Here you will conduct analyses on behalf of a trio of 3rd-grade teachers at Lindquist Elementary School in Hometown, USA. The Principal of the school has requested your assistance in helping these teachers analyze some of their preliminary in-house assessments. Ms. Atwell, Ms. Barnes, and Mr. Campbell each have 18 students assigned to their classrooms, and they plan their instruction together often. After one month of school, they compiled scores for a comprehensive 64-item spelling test for the words they've agreed to teach (16 words each week). And they administered the first unit test of 40 items from their mathematics textbook. Ms. Atwell keyed in the scores for all 54 students on the team and shared them with the Principal. Your task, then, is to make sense of this data and describe your suggestions back to the teaching team.
+
+Remember that this assignment is all about collaborative learning. It is an opportunity to try out your skills as a coder and your understanding of educational testing. Please ensure that you engage in a full, fair, and mutually-agreeable collaboration with your partner. Do not simply divide the work. Discuss and plan your analyses together; debate what you have found with each other; collaborate on the writing.
+
+## Data set
+
+The data are contained in the DAM1.csv file. Ms. Atwell included the following details.
+
+-   Boys were assigned as 1; girls were assigned as 2. However, she left three of the students' gender blank, as Paige, Sam, and Steph are to be categorized as nonbinary. She asks that you work out how to make this happen.
+-   The three classrooms are labeled 1 for Ms. Atwell's class, 2 for Ms. Barnes's class, and 3 for Mr. Campbell's class.
+
+## Organizing your work
+
+At the end of your process of working through this assignment, you will turn in an RMarkdown file -- with your names on it -- to Canvas. (Only one copy of the joint DAM produced as partners is required.) But getting organized on how to produce the final product takes some work. Here's how I might take this on:
+
+1. Start a New Project called DAM1 or something similar. 
+
+2. Within your Project, open an RScript used to keep track of code that you might employ in your analysis. You won't turn in this, so you can call it something like "DAM1notes" or similar. 
+
+3. Open an RMarkdown file that you'll use to build your final product that you will turn in and save it as something more permanent. You'll be faced with a choice about what type: Document, PResentation, Shiny, or From Template. Choose Document. And feel free to also choose the Default Output Fromat, which is HTML. 
+
+4. Download and save the DAM1.csv file into your DAM1 Project
+
+5. Communicate with your partner frequently!
+
+## Data Analysis
+
+1.  Input the DAM1.csv data carefully to your computer. Then, print the data set, without alteration, as the first step in your memo.
+
+2.  Clean the data set and produce suitable labels for student gender and assigned classroom. Then, summarize the number of students listed by gender in each of the three classrooms.
+
+3.  Produce a boxplot of Spelling scores for all 54 students, featuring it as a graphical exhibit.
+
+    a.  In one sentence, state and interpret the value of the sample median of Spelling.
+
+    b.  In one sentence, state and interpret the value of the sample upper quartile of Spelling
+
+    c.  In one sentence, state and interpret the value of the sample lower quartile of Spelling
+
+    d.  Provide the value of the interquartile range of Spelling and, in one sentence, explain what it is telling us.
+
+    e.  In one sentence, state whether you think the sample distribution of Spelling scores is symmetric, and if it is not, explain in what way its symmetry has been violated.
+
+4.  Produce a boxplot of Math scores for all 54 students, featuring it as a graphical exhibit.
+
+    a.  In one sentence, state and interpret the value of the sample median of Math.
+
+    b.  In one sentence, state and interpret the value of the sample upper quartile of Math
+
+    c.  In one sentence, state and interpret the value of the sample lower quartile of Math
+
+    d.  Provide the value of the interquartile range of Math and, in one sentence, explain what it is telling us.
+
+    e.  In one sentence, state whether you think the sample distribution of Math scores is symmetric, and if it is not, explain in what way its symmetry has been violated.
+
+5.  Display as a scatterplot the relationship between Spelling (on the x-axis) and Math (on the y-axis). Make sure that the axes are labeled appropriately and that you have provided a suitable title for the plot.
+
+6.  Briefly describe the nature of any relationship you observe on the scatterplot between Math scores and Spelling scores for the full sample of 54 children.
+
+7.  Produce a scatter plot showing the relationship between Math scores and Spelling scores AND which classroom each student is assigned to.
+
+8.  Briefly describe the nature of any relationship between Math scores, Spelling scores, and which classroom assigned that you notice.
+
+9.  Produce boxplots of Spelling scores for the three classrooms, featuring it as a graphical exhibit.
+
+    a.  In one paragraph, state and interpret the value of the median, the upper quartile, the lower quartile, and the interquartile range of Spelling scores for Ms. Atwell's classroom. If any outlying data points are apparent for her classroom, identify the student or students by name, and explain what you noted.
+
+    b.  In one paragraph, state and interpret the value of the median, the upper quartile, the lower quartile, and the interquartile range of Spelling scores for Ms. Barnes's classroom. If any outlying data points are apparent for her classroom, identify the student or students by name, and explain what you noted.
+
+    c.  In one paragraph, state and interpret the value of the median, the upper quartile, the lower quartile, and the interquartile range of Spelling scores for Mr. Campbell's classroom. If any outlying data points are apparent for his classroom, identify the student or students by name, and explain what you noted.
+
+10. Produce boxplots of Math scores for the three classrooms, featuring it as a graphical exhibit.
+
+    a.  In one paragraph, state and interpret the value of the median, the upper quartile, the lower quartile, and the interquartile range of Math scores for Ms. Atwell's classroom. If any outlying data points are apparent for her classroom, identify the student or students by name, and explain what you noted.
+
+    b.  In one paragraph, state and interpret the value of the median, the upper quartile, the lower quartile, and the interquartile range of Math scores for Ms. Barnes's classroom. If any outlying data points are apparent for her classroom, identify the student or students by name, and explain what you noted.
+
+    c.  In one paragraph, state and interpret the value of the median, the upper quartile, the lower quartile, and the interquartile range of Math scores for Mr. Campbell's classroom. If any outlying data points are apparent for his classroom, identify the student or students by name, and explain what you noted.
+
+11. Without employing any statistical inference or causal language, write (in 200 words or fewer) your general recommendations for the teachers on the team and their Principal regarding what your descriptive analysis reveals. As consultants, your opinions should be non-judgmental, providing guidance and support for these teachers and their students.
+
+12. Submit a joint .Rmd file to Canvas by September 28, 2022 at 11:59 PM. Be sure that both partners names are listed. It is not necessary for both partners to submit DAM1 to Canvas, as the grade for your submission will be identical for both.
+
+## A Final Word
+
+As this is a collaborative effort between partners, please abide by the Middlebury policies on plagiarism. If someone else makes a contribution to your work (other than your instructor), recognize their contribution explicitly. If you do this consistently, you cannot be accused of plagiarizing. There is no penalty for seeking help from other class members, provided that the help is explicitly recognized in your memo. Remember that this is not a competition. Everyone's work will be graded on its quality, and not on a curve.

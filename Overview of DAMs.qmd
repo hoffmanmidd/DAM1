@@ -1,0 +1,42 @@
+---
+title: "DAM Overview"
+author: "Steve Hoffman"
+format: html
+editor: visual
+---
+
+## Data Analytic Memos
+
+One primary goal in EDST0213 is to employ data analysis about educational testing, using statistical software, and communicating with the broader community. To provide a chance for you to code in R and write memos using technical language actively, I assign five "Data Analytic Memos" as part of the course.
+
+To help you develop your skills, I've assigned these DAM things for you to work on in **pairs** (or, if absolutely necessary, trios). A tentative schedule for these assignments follows, though these dates may change. All assignments should be submitted by 11:59 PM on the date specified.
+
+DAMS are tentatively due September 28, October 12, October 26, November 9, and December 2
+
+#### Collaboration
+
+I mandate collaboration for at least three reasons. First, learning technical subjects is like learning a language. To learn it, one must "speak" it actively and in a genuine context with other individuals. Second, collaborative analysis is the norm and individual work is the exception in the professional world. Third, my experience as a student (not so long ago, despite my age) is that working in small groups helped me learn more and and enjoy myself more, compared to working alone.
+
+Beyond pairs, study groups can be helpful to you as you prepare to do the assignments, both in terms of how to approach the work (including how to use RStudio effectively) and in terms of how to think about important concepts. However, students must turn in course DAMs as pairs or trios as specified above. Assignments should be written in your own words, reflecting your own understanding of the material.
+
+#### Guidelines to avoid misunderstandings
+
+-   Avoid sharing electronic documents with your answers to members outside of your partnership.
+
+-   Don't sit at the same computer with members outside of the partnership and co-write answers to be shared.
+
+-   Schedule meetings with your colleagues so that you have sufficient time afterwards to write in pairs or individually.
+
+-   Focus on what you say and how you say it. The assignments require not only coding skills, but skills in analyzing and reporting the material.
+
+-   Consider forming larger study groups to ask questions, try out interpretations, and share tips for coding. Often one person can explain something that makes you see something in a new way. Different people have different insights and strengths --- some are great coders, some ask insightful questions, others value contextual analysis. You can learn an immense amount listening to what your colleagues have to offer.
+
+-   However, avoid sitting in groups at laptops or computers and simultaneously composing text. You and your partner(s) must write your own paper, on your own, using your own language.
+
+-   Be sensitive to the distinction between collaboration to interpret the assignment and collaboration to write up the assignment. The former is encouraged; the latter is forbidden beyond your partner(s). If the distinction begins to feel murky, refocus your group's work on lecture content and course materials.
+
+-   As this is a collaborative effort among partners, please abide by Middlebury policies on plagiarism. Provide explicit "authors'" footnotes at suitable points in your DAM, in which you identify important contributions to your work from anyone else other than your partner (not including the instructor). There is absolutely no penalty for seeking help from anyone, including other class members, providing that their help is recognized explicitly in your memo.
+
+So, to reiterate, I encourage the formation of larger teams to discuss the work, so long as partners produce their own DAM in their own words. It is perfectly OK to work with a larger group. But if phrasing is reported in your own work, be sure to cite the full authorship. Otherwise, if pairs share commonly crafted language there is a danger that I could interpret this replication as plagiarism, and I want to avoid this.
+
+Please remember that this is not a competition among class members. Everyone's work will be graded on its quality. I hope that the class can function integrally as a team whose members help each other when it is needed or requested.
